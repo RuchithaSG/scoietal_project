@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - Jeevan Jyothi Residential School</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background: url('images/4.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        header {
+            text-align: center;
+            background: lightblue;
+            color: darkblue;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: lightblue;
+            padding: 10px;
+            text-align: center;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: darkblue;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav ul li a.active {
+            text-decoration: underline;
+        }
+
+        /* Admissions Section */
+        .admissions-section {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 20px;
+            margin: 50px auto;
+            width: 80%;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: darkblue;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .steps {
+            text-align: left;
+            margin: 20px auto;
+            max-width: 600px;
+            padding-left: 0;
+        }
+
+        .steps li {
+            font-size: 18px;
+            background: lightblue;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            list-style-type: none;
+        }
+
+        /* Contact Button */
+        .contact-btn {
+            background-color: darkblue;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+        }
+
+        .contact-btn:hover {
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Admissions</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="admission.html" class="active">Admissions</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="admissions-section">
+        <h2>Admission Process</h2>
+        <p>We welcome students from all backgrounds to join our vibrant and inclusive learning community.</p>
+        
+        <h2>Steps to Apply:</h2>
+        <ol class="steps">
+            <li>Fill out the application form.</li>
+            <li>Submit the required documents (birth certificate, previous academic records, etc.).</li>
+            <li>Attend an admission interview.</li>
+            <li>Receive confirmation and pay the admission fee.</li>
+            <li>Join the orientation program and begin your journey with us!</li>
+        </ol>
+
+        <h2>Required Documents:</h2>
+        <ul class="steps">
+            <li>Birth Certificate</li>
+            <li>Previous Academic Records</li>
+            <li>Transfer Certificate (if applicable)</li>
+            <li>Medical Certificate</li>
+            <li>Passport Size Photos (3 copies)</li>
+        </ul>
+
+        <h2>Why Choose Us?</h2>
+        <p>Jeevan Jyothi Residential School offers a world-class education with modern facilities, experienced faculty, and a focus on holistic development.</p>
+
+        <ul class="steps">
+            <li><strong>Experienced Faculty:</strong> Our dedicated and highly qualified teachers ensure that each student receives personal attention.</li>
+            <li><strong>State-of-the-Art Infrastructure:</strong> Well-equipped classrooms, smart boards, and modern labs enhance the learning experience.</li>
+            <li><strong>Inclusive Education:</strong> We provide special support for hearing-impaired students, ensuring equal opportunities for all.</li>
+            <li><strong>Extracurricular Activities:</strong> Students can engage in various sports, music, dance, and arts programs to develop their talents.</li>
+            <li><strong>Safe & Secure Campus:</strong> 24/7 security, CCTV surveillance, and a well-maintained hostel provide a secure environment for students.</li>
+            <li><strong>Strong Academic Foundation:</strong> Our curriculum is designed to build problem-solving skills, creativity, and leadership qualities.</li>
+            <li><strong>Focus on Moral Values:</strong> We instill discipline, integrity, and social responsibility in our students.</li>
+            <li><strong>Career Guidance & Counseling:</strong> We help students make informed career choices and prepare for higher education.</li>
+        </ul>
+
+        <p>Join us today and become a part of a school that not only educates but also nurtures every child to achieve their full potential.</p>
+
+        <button class="contact-btn" onclick="showAlert()">Contact Us</button>
+    </section>
+
+    <script>
+        function showAlert() {
+            alert("Contact us at: +91 9876543210 or email us at contact@jeevanjyothischool.com");
+        }
+    </script>
+</body>
+</html>

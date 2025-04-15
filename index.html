@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeevan Jyothi Residential School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('images/1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: rgba(173, 216, 230, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            color: #000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+        nav ul li a:hover {
+            color: darkblue;
+        }
+        .content-box {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: darkblue;
+        }
+        .school-img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .school-img:hover {
+            transform: scale(1.05);
+        }
+        button {
+            background-color: darkblue;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: navy;
+        }
+        .contact-btn {
+            margin-top: 20px;
+        }
+        .notice-list p {
+            font-size: 16px;
+            margin: 10px 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jeevan Jyothi Residential School</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="admission.html">Admissions</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Admin Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content-box">
+        <h2>Welcome to Jeevan Jyothi Residential School</h2>
+        <p>Empowering young minds through education, inclusivity, and values-based learning.</p>
+        <img src="images/2.jpg" alt="School Image" class="school-img">
+    </div>
+    <div class="content-box">
+        <h2>Our Facilities</h2>
+        <ul>
+            <li>Spacious, well-equipped classrooms</li>
+            <li>Modern computer & science labs</li>
+            <li>Large playground & sports area</li>
+            <li>Library with 10,000+ books</li>
+            <li>On-campus hostel & nutritious food</li>
+        </ul>
+    </div>
+    <div class="content-box">
+        <h2>Our Special Deaf School Program</h2>
+        <p>Jeevan Jyothi Residential School is committed to providing <strong>inclusive education</strong>. Our <strong>dedicated deaf school</strong> offers:</p>
+        <ul>
+            <li>Qualified sign language instructors</li>
+            <li>Assistive learning technologies & smart classrooms</li>
+            <li>Custom curriculum tailored for hearing-impaired students</li>
+            <li>Speech therapy & audiology support</li>
+            <li>Interactive learning through visual aids</li>
+        </ul>
+        <img src="images/3.jpg" alt="Deaf School Learning" class="school-img">
+    </div>
+    <div class="content-box">
+        <h2>Beyond Academics</h2>
+        <ul>
+            <li>Sports (football, cricket, badminton, athletics)</li>
+            <li>Music, dance, and arts programs</li>
+            <li>Drama & theatre clubs</li>
+            <li>Community service & leadership programs</li>
+        </ul>
+    </div>
+    <div class="content-box">
+        <h2>Latest Notices</h2>
+        <div class="notice-list">
+            <p><strong>Notice Title 1</strong> - This is the content of the notice. (Posted: 2025-04-15)</p>
+            <p><strong>Notice Title 2</strong> - This is the content of another notice. (Posted: 2025-04-10)</p>
+            <p><strong>Notice Title 3</strong> - This is another notice content. (Posted: 2025-04-05)</p>
+        </div>
+    </div>
+    <button class="contact-btn" onclick="showAlert()">Contact Us</button>
+    <script>
+        function showAlert() {
+            alert("Contact us at: +91 9876543210 or email us at contact@jeevanjyothischool.com");
+        }
+    </script>
+</body>
+</html>
